@@ -125,8 +125,7 @@ public class JavaCollectionsActivity {
 //Write a Java function that takes an ArrayList of integers as a parameter and moves the minimum value in the list to the front, while preserving the order of the elements. For example: [3,8,23,91,6,1] will turn to [1,3,8,23,91,6]
     public static void preservingOrder(ArrayList<Integer> age) {
         System.out.println("Number 3: " + "This is Exercise number 2 which is to take an ArrayList of integers as a parameter and moves the minimum value in the list to the front, while preserving the order of the elements. \n");
-//         public static void MinimumValue(ArrayList<Integer> arraylistInput){
-     //[2,8,6,8,9,12,1,45,15]
+
        int orderLength = age.size();
        int min=0;
        
